@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #fff;
+	
+	width: 100vw;
+	height: 100vh;
+	
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(3deg, rgb(93, 167, 212), rgb(20, 85, 143));
+	background:#fff;
+	
+	
+	margin: auto;
+}
+header .logo-cia{
+	background: -webkit-linear-gradient(3deg, rgb(93, 167, 212), rgb(20, 85, 143));
+	background:#fff;
+	
+	display: flex;
+	width: 100%;
+	height: 76%;
+	padding: 15px;
+	justify-content: center;
+	align-items: center;
+}
+.logo-cia img{
+	width: 90%;
+	height: 100%;
+	border-radius: 12px;
+
+}
+
+.logo-cia img:hover{
+	transform: scale();
+	width: 110%;
+	height: 110%;
+	transition: 3s;
+	
+	
+}
+
+/*navegador*//*navegador*//*navegador*//*navegador*/
+nav{
+	background: -webkit-linear-gradient(3deg, rgb(93, 167, 212), rgb(20, 85, 143));
+	background:#fff;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    
+/*Estilo para degradados*/
+    overflow: hidden; 
+    width: 100%;
+    height: 24%;
+}
+ 
+
+/*Estilo para lista desordenada*/
+nav ul{
+	background: -webkit-linear-gradient(3deg, rgb(93, 167, 212), rgb(20, 85, 143));
+	background:#fff;
+	
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	padding: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+/*Bordes redondeados para los elementos de la lista*/
+nav ul li{
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+    
+}
+/*Sombras al posicionar el mouse por encima de los elementos*/
+/*nav ul li:hover{
+    box-shadow: 1px -1px 0px #888;
+    border: 1px solid #e3e3e3;
+}*/
+/*enlaces del nvegador*//*enlaces del nvegador*//*enlaces del nvegador*/
+nav ul li a{
+    padding: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+	font-weight: bold;
+    color: #fff;
+	color: #000;
+    text-decoration: none;
+
+/*transiciones*//*transiciones*//*transiciones*//*transiciones*/
+-webkit-transition: 0.4s linear all;
+-moz-transition: 0.4s linear all;
+-o-transition: 0.4s linear all;
+transition: 0.4s linear all;
+}
+
+nav ul li a:hover{
+	transform: scale();
+	font-size: 200%;
+	text-decoration: underline;
+	color: red;
+	color: blue;
+	color: orange;
+	color: rgb(119, 119, 114);
+}
+
+/*contenedor principal*//*contenedor principal*//*contenedor principal*/
+
+
+@media screen and (max-width: 800px) {
+	
+	header{
+		width: 100vw;
+		height: 100vh;
+		margin: auto;
+		align-items: center;
+		justify-content: center;
+		background:#fff;
+	}
+	header .logo-cia{
+		background:#fff;
+		display: flex;
+		width: 100%;
+		height: 30%;
+		padding: 15px;
+		justify-content: center;
+		align-items: center;
+	}
+	.logo-cia img{
+		width: 90%;
+		height: 90%;
+		
+	
+	}
+	nav{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 96%;
+		height: 70%;
+		margin: auto;
+		background:#fff;
+	}
+	nav ul{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		width: 96%;
+		height: 100%;
+		margin: auto;
+		background:#fff;
+	}
+
+	nav ul li{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+		background:#fff;
+
+	}
+
+	nav ul li a{
+		font-size: 30px;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+	}
+
+	
+}
+	
